@@ -1,0 +1,36 @@
+/*
+Error: The line was indented 2 levels deeper than the previous line.
+        on line 22 of D:\Portofolio\DevTips\assets\css\3-modules\_footer.sass
+
+17: 			font-size: 14px
+18: 			font-weight: 700
+19: 			text-transform: uppercase
+20: 
+21: 		&:hover
+22: 				color: rgba(0,0,0,1)
+
+Backtrace:
+D:\Portofolio\DevTips\assets\css\3-modules\_footer.sass:22
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:519:in `tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:523:in `tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:523:in `tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:295:in `render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:364:in `watch_or_update'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.16/bin/sass:13:in `<top (required)>'
+C:/Ruby200-x64/bin/sass:23:in `load'
+C:/Ruby200-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 22 of D:\Portofolio\DevTips\assets\css\3-modules\_footer.sass\A \A 17: 			font-size: 14px\A 18: 			font-weight: 700\A 19: 			text-transform: uppercase\A 20: \A 21: 		&:hover\A 22: 				color: rgba(0,0,0,1)"; }
